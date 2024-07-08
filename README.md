@@ -2,7 +2,7 @@
 
 **Generate meeting note summaries from Microsoft Teams, Zoom or other .vtt formatted transcripts, using a nominated OpenAI GPT Large Language model running within your own Microsoft Azure tenancy.**
 
-Record Sure Limited (['Recordsure'](https://recordsure.com)) licences this file to you under the [MIT license](LICENSE.txt)
+Record Sure Limited (['Recordsure'](https://recordsure.com)) licences this file to you under the [MIT license](LICENSE)
 
 ## Overview
 The [generateMeetingNote.py](generateMeetingNote.py) file is a Python script that will generate a [summary meeting note](ExampleTranscript/ExampleTranscript1_meeting_note.docx) in Microsoft Word format, given a .vtt ([WebVTT](https://en.wikipedia.org/wiki/WebVTT)) file as its sole input parameter.
@@ -27,7 +27,7 @@ The Microsoft charge approximation above is calculated using the Microsoft Azure
 # Getting Started
 You will need to have Python installed and a very basic knowledge of Python. 
 
-If you are not a software developer then don't worry - an hour or so of time from a friendly Python developer whould be enough to get you started with generating your own transcripts, with your own configurations; whilst you'll see from things like the ['Prompts.xlsx'](Prompts.xlsx) configuration file, we've made this as Windows friendly as possible.
+If you are not a software developer then don't worry - an hour or so of time from a friendly Python developer should be enough to get you started with generating your own transcripts with your own configurations; whilst you'll see from things like the ['Prompts.xlsx'](Prompts.xlsx) configuration file, we've made this as Windows friendly as possible.
 
 Otherwise, here's all you need to know.
 
@@ -86,12 +86,12 @@ The spreadsheet file has two worksheets:
   * _topic_analysis_postlude_: The closing prompts used in the topic categorisation.
 
 That's about it, folks. 
-...other than to say that if you do want to productionise the code above and have it automagically generate customised meeting notes from, say, your Microsoft Teams meetings, then perhaps either:
+...other than to say that if you do want to productionise the code above and have it automagically generate customised meeting notes from, say, your Microsoft Teams meetings, then here are a couple of immdiate options:
 * if you are an enterprise or product supplier who wants to provide/sell a Teams 'bot', then perhaps start with [Microsoft's giveaway code here](https://learn.microsoft.com/en-us/samples/officedev/microsoft-teams-samples/officedev-microsoft-teams-samples-meetings-transcription-nodejs/).
 * ignore all of the code above, now that you understand how simple this all is, and simply create a Microsoft Power Automate Flow to grab your meeting notes from Teams and run them through a GPT model, [perhaps starting here](https://learn.microsoft.com/en-us/ai-builder/use-a-custom-prompt-in-flow).
 
 # And Finally
-**If you are a [Recordsure Capture or ConversationAI](https://recordsure.com) customer then, frankly, ignore all of the above.** 
+**If you are a [Recordsure Capture](https://recordsure.com/conversation-review-ai/capture/) or [ConversationAI](https://recordsure.com/conversation-review-ai/) customer then, frankly, ignore all of the above.** 
 
 **Recordsure provides our clients with editable Meeting Note Summaries _at no extra cost_; as well as evidence citations and more powerful tools for advice efficiency, such as AI summary themes based on _real_ predictive AI, trained by data scientists and human annotators over many years on _real_ financial advice conversations.**
 
