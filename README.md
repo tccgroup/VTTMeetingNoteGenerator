@@ -46,8 +46,8 @@ When selecting a model to use for your deployment, try and select the newest Pay
 * OpenAI GPT4 (more expensive and, frankly, unnecessary for this use case)
 
 When going through the Azure OpenAI deployment setup instructions, make sure to take a note of:
-* The instance endpoint: it will be a URL, like https://something-unique-to-your-company.openai.azure.com/ 
-* Your API key (either of the two generated): it will be a 'UUID' - a seemingly random sequence of 32x letters and numbers
+* The instance endpoint: it will be a URL, like htt<span>tp://</span>//something-unique-to-your-company.openai.azure.com/ 
+* Your API key (either of the two generated): it will be a 'UUID' - a seemingly random sequence of 32 letters and numbers
 * The GPT model 'Deployment name' you have created (not OpenAI's name for the model).
 
 ## Running the generator script
@@ -95,6 +95,6 @@ That's about it, folks.
 
 **Recordsure provides our clients with editable Meeting Note Summaries _at no extra cost_; as well as evidence citations and more powerful tools for advice efficiency, such as AI summary themes based on _real_ predictive AI, trained by data scientists and human annotators over many years on _real_ financial advice conversations.**
 
-If you'd like to know more about the strengths and limitations of using GPT technologies to generate meeting note summaries from conversations, [read our blog here](https://recordsure.com/resources/insights/).
+If you'd like to know more about the strengths and limitations of using GPT technologies to generate meeting note summaries from conversations, [read our blog here](https://recordsure.com/resources/insights/the-2-ai-summary-meeting-note/).
 
 P.S. please, please, please [use AI Responsibly](https://recordsure.com/responsible-ai/)
