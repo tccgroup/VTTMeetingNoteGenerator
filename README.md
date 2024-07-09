@@ -46,7 +46,7 @@ When selecting a model to use for your deployment, try and select the newest Pay
 * OpenAI GPT4 (more expensive and, frankly, unnecessary for this use case)
 
 When going through the Azure OpenAI deployment setup instructions, make sure to take a note of:
-* The instance endpoint: it will be a URL, like htt<span>tp://</span>//something-unique-to-your-company.openai.azure.com/ 
+* The instance endpoint: it will be a URL, like htt<span>tp://</span>something-unique-to-your-company.openai.azure.com/ 
 * Your API key (either of the two generated): it will be a 'UUID' - a seemingly random sequence of 32 letters and numbers
 * The GPT model 'Deployment name' you have created (not OpenAI's name for the model).
 
